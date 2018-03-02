@@ -1,0 +1,17 @@
+# Сжимаем элементы с помощью mod_deflate
+<ifmodule mod_deflate.c="">
+    <filesmatch .(.jpg|.gif|.png|.tiff|.ico)$="">
+        SetOutputFilter DEFLATE
+    </filesmatch>
+</ifmodule>
+#
+
+# Усиливаем кеширование
+FileETag MTime Size
+<ifmodule mod_expires.c>
+    <filesmatch ".(jpg|gif|png|css|js)$">
+        ExpiresActive on
+        ExpiresDefault "access plus 1 year"
+    </filesmatch>
+</ifmodule>
+#
