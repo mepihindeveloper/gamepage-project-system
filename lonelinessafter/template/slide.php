@@ -1,0 +1,1 @@
+<img class="img-fluid screenshot" src="{slide_image_src}" alt="">

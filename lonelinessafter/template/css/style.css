@@ -1,0 +1,64 @@
+html, body {
+	background-color: #000;
+}
+article, aside {
+	background: white;
+	padding: 20px !important;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+a:visited {
+	color: #f1f1f1;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.card-text, .card-title {
+	color: #000;
+}
+
+.container, footer {
+	max-width: 992px !important;
+}
+
+/* Footer */
+.footer-basic-centered{
+	text-align: center;
+	padding: 45px;
+	padding-top: 25px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.screenshot {
+	margin-bottom: 10px;
+}

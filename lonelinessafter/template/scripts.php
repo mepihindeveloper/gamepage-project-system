@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{template_path}js/script.js"></script>
